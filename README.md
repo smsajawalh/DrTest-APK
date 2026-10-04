@@ -66,15 +66,3 @@ Dr. Test builds audit-ready single-page reports directly on-device using Android
 * **Java Runtime**: OpenJDK 11+
 * **Architecture**: Universal APK (ARM64-v8a, ARMeabi-v7a, x86_64)
 
-### Building from Source
-
-```bash
-# Clone the repository
-git clone [https://github.com/smsajawalh/DrTest-APK.git](https://github.com/smsajawalh/DrTest-APK.git)
-cd DrTest-APK
-
-# Build debug APK
-./gradlew assembleDebug
-
-# Build release APK
-./gradlew assembleRelease
